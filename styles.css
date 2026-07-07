@@ -115,7 +115,7 @@ h2 {
 }
 
 .policy-hero h1 {
-  font-size: clamp(36px, 7vw, 56px);
+  font-size: 48px;
   line-height: 1;
 }
 
@@ -180,6 +180,10 @@ h2 {
 }
 
 .updated {
-  margin-top: 32px;
+  margin: 32px 0 0;
   font-size: 14px;
+}
+
+.updated + hr {
+  margin-top: 32px;
 }
