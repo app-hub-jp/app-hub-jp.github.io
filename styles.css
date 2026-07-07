@@ -98,6 +98,12 @@ h2 {
   margin-top: 10px;
 }
 
+.content hr {
+  margin: 44px 0 36px;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
 .app-list {
   padding-top: 28px;
 }
