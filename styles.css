@@ -1,21 +1,16 @@
 :root {
   color-scheme: light dark;
-  --bg: #f7f4ef;
-  --text: #181714;
-  --muted: #676056;
-  --line: #ded7cc;
-  --surface: #fffdfa;
-  --accent: #2f6958;
+  --bg: #e6e6e6;
+  --text: #1a1a1a;
+  --muted: #808080;
+  --link: #0000ee;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #151413;
-    --text: #f3eee7;
-    --muted: #b7aea2;
-    --line: #39342d;
-    --surface: #1e1c19;
-    --accent: #8cc7b4;
+    --bg: #1a1a1a;
+    --text: #e6e6e6;
+    --link: #8080f7;
   }
 }
 
@@ -32,7 +27,7 @@ body {
 }
 
 a {
-  color: var(--accent);
+  color: var(--link);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.18em;
 }
@@ -57,7 +52,7 @@ a:hover {
 
 .hero {
   padding-bottom: 32px;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--muted);
 }
 
 .eyebrow {
@@ -114,7 +109,7 @@ h3 {
 .content hr {
   margin: 48px 0 16px;
   border: 0;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid var(--muted);
 }
 
 .policy-hero {
@@ -158,9 +153,9 @@ h3 {
   gap: 18px;
   min-height: 80px;
   padding: 18px 20px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--muted);
   border-radius: 8px;
-  background: var(--surface);
+  background: var(--bg);
   color: var(--text);
   text-decoration: none;
 }
