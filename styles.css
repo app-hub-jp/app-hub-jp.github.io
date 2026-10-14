@@ -101,7 +101,8 @@ h3 {
   margin-top: 0;
 }
 
-.content ul {
+.content ul,
+.content ol {
   margin: 16px 0 24px;
   padding-left: 22px;
 }
